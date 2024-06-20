@@ -282,7 +282,7 @@ color:#CACACA;
 	overflow: hidden;
 	position: absolute;
     top: 10px; left: 100px;
-    opacity:0.8;
+    opacity:0.95;
     z-index: 100;
      transform: translate3d(0, - 20%, 0);
   animation: spin 10s infinite linear;
