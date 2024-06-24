@@ -875,11 +875,11 @@ width: 100%;
 	border-radius: 50px;
 	position: absolute;
     top: 360px;
-    left: 165px;
+    left: 120px;
     display: grid;
     justify-content: center;
     align-items: center;
-    animation: showDiv 3s forwards;
+    animation: showDiv 5s forwards;
 }
 @keyframes showDiv {
   99%, 0% {
