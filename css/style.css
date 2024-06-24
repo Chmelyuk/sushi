@@ -751,6 +751,7 @@ width: 100%;
 	font-family: "Mulish", sans-serif;
     font-weight: 800;
     font-style: normal;
+    cursor: pointer;
    
 }
 
@@ -865,3 +866,77 @@ width: 100%;
      transition-duration:  1s;
 
 }
+
+
+.window{
+	width:453px ;
+	height:409px ;
+	background-color: #363A46;
+	border-radius: 50px;
+	position: absolute;
+    top: 360px;
+    left: 165px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg{
+	display: grid;
+	justify-content: center;
+}
+
+.succes_reg{
+	display: grid;
+	justify-content: center;
+}
+
+.succes_reg h2{
+	color: #FFFFFF;
+   font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+   font-style: normal;
+    font-size: 35px;
+    text-align: center;
+}
+
+.succes_reg p{
+	color: #FFFFFF;
+   font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+   font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    padding: auto;
+   
+}
+
+
+.instr_button{
+ 	display: grid;
+	justify-content: center;
+ }
+ .instr_but {
+	padding: auto;
+	width: 353px;
+	height: 86px;
+	background-color: #FFFFFF;
+	font-size: 26px;
+	color: #363A46;
+	border-radius: 100px;
+	font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    cursor: pointer;
+   
+}
+
+.instr_but:hover {
+	background-color:#3C0056;
+	color: #FFFFFF;
+	}
+.instr_but:active {
+	background-color: grey;
+	}
